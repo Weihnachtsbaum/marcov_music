@@ -1,5 +1,5 @@
 [package]
-name = "marcov_music"
+name = "markov_music"
 version = "0.1.0"
 edition = "2024"
 

@@ -109,14 +109,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0717cef1bc8b636c6e1c1bbdefc09e6322da8a9321966e8928ef80d20f7f770f"
 
 [[package]]
-name = "marcov_music"
-version = "0.1.0"
-dependencies = [
- "markov",
- "midly",
-]
-
-[[package]]
 name = "markov"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -129,6 +121,14 @@ dependencies = [
  "serde",
  "serde_derive",
  "serde_yaml",
+]
+
+[[package]]
+name = "markov_music"
+version = "0.1.0"
+dependencies = [
+ "markov",
+ "midly",
 ]
 
 [[package]]
